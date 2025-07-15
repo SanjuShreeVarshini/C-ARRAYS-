@@ -10,7 +10,7 @@ int main(){
     int treasureIndex = rand () % 5;
     numbers[treasureIndex] = 1;
 
-    c0ut<< "Welcome to treasure hunt game! \n";
+    cout<< "Welcome to treasure hunt game! \n";
     cout<<"There are 5 positions.one has a hidden number\n";
 
     int guess,attempts =0;
@@ -20,12 +20,14 @@ int main(){
         attempts++;
         if (guess <0||guess > 4){
             cout<<"Invalid index.guess between 0 & 4\n";
-            coontinue;
+            continue;
+        }
         if(numbers[guess] == 1){
-            cout<<"Congratulations! You found the treasure<<attempts<"attempts.\n";
+            cout<<"Congratulations! You found the treasure" << attempts << "attempts\n";
             break;
+        }
         else{
-        cout<<"Wrong Spot.Try again"}
+        cout<<"Wrong Spot.Try again";
         }
 
         }
@@ -33,4 +35,3 @@ int main(){
     }
 
     
-}
