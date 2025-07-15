@@ -1,25 +1,27 @@
-# C++-ARRAYS-
-ALL ABOUT ARRAYS
-A beginner-friendly C++ project: a 1D Treasure Hunt game where the user guesses the hidden treasure's index. Built while learning arrays, randomness, loops, and fighting both syntax errors and overthinking — one cout at a time.
+🧠 C++ Array Adventure: 1D, 2D, and 3D Games
+A collection of fun and educational mini-games built using 1D, 2D, and 3D arrays in C++. Designed to help beginners understand how arrays work through interactive, console-based games.
+🎮 What's Inside?
 
-💡 Features:
+1️⃣ Treasure Hunt (1D Array)
 
-1D array logic
+A random treasure is hidden in a 1D array of 5 positions. Your task is to guess the index.
 
-Random index generation using rand()
+- Concepts: 1D arrays, `rand()`, loop, conditionals
+- Difficulty: Easy
+- Input: Guess index (0–4)
 
-Input validation with user attempts count
+ 2️⃣ Mine Finder (2D Array)
 
-Console interaction with simple game loop
+Find a hidden mine in a 2x3 grid by entering row and column values.
 
-🛠️ Technologies:
-C++ (Console App)
+- Concepts: 2D arrays, nested access, input validation
+- Difficulty: Easy to Medium
+- Input: row (0–1), column (0–2)
 
-🌱 Motivation:
-Created while leveling up my logic-building and debugging skills in C++. Also featuring strong side quests like:
+ 3️⃣ Cube Treasure Hunt (3D Array)
 
-Confusing c0ut with cout
+Search for treasure in a 3D cube (3×3×3). You must guess the correct layer, row, and column.
 
-Asking “how does the number become 1?” and then writing the line that made it 1
-
-😄 Built with humor, heartbreak, and hustle.
+- Concepts: 3D arrays, multi-dimensional access, loops
+- Difficulty: Medium
+- Input: layer (0–2), row (0–2), column (0–2)
